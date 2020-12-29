@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BasicUI</string>
+    <string name="text_view_content">Bonjour</string>
+</resources>

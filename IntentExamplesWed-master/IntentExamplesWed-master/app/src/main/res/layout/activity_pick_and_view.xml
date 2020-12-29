@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PickAndViewActivity">
+
+    <Button
+        android:id="@+id/btn_pick_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick contact"/>
+
+    <TextView
+        android:id="@+id/text_contact_uri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact uri"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btn_view_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View contact"/>
+
+    <Button
+        android:id="@+id/btn_pick_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick image"/>
+
+    <TextView
+        android:id="@+id/text_image_uri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="image uri"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btn_view_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View image"/>
+
+    <Button
+        android:id="@+id/btn_open_target_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open target activity"/>
+</LinearLayout>

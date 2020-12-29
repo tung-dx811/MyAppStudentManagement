@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What kind of coffee?"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="32sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rad_decaf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decaf"
+            android:textSize="32sp" />
+
+        <RadioButton
+            android:id="@+id/rad_expresso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expresso"
+            android:textSize="32sp" />
+
+        <RadioButton
+            android:id="@+id/rad_colombian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colombian"
+            android:textSize="32sp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What else do you like?"
+        android:textSize="32sp"/>
+
+    <CheckBox
+        android:id="@+id/chk_cream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cream"
+        android:textSize="32sp"
+        android:checked="false"/>
+
+    <CheckBox
+        android:id="@+id/chk_sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugar"
+        android:textSize="32sp"
+        android:checked="false"/>
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:textSize="32sp"/>
+
+</LinearLayout>
+</ScrollView>

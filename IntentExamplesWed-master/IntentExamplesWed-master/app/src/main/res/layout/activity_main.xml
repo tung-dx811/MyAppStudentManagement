@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_open_dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open dial" />
+
+    <Button
+        android:id="@+id/btn_open_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open call" />
+
+    <Button
+        android:id="@+id/btn_web_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web search" />
+
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send sms" />
+
+    <Button
+        android:id="@+id/btn_get_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get images" />
+
+    <Button
+        android:id="@+id/btn_view_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View contacts" />
+
+    <Button
+        android:id="@+id/btn_edit_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit contact" />
+
+    <Button
+        android:id="@+id/btn_open_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open web" />
+
+    <Button
+        android:id="@+id/btn_search_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search map" />
+
+    <Button
+        android:id="@+id/btn_view_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View map" />
+
+    <Button
+        android:id="@+id/btn_view_route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View route" />
+
+    <Button
+        android:id="@+id/btn_send_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send email" />
+</LinearLayout>

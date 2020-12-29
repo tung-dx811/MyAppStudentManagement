@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ActivityShowDetailStudentInfo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_mssv"
+        android:textSize="24sp"
+        android:text="Mã số sinh viên: "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_mssv"
+        android:id="@+id/detail_fullname"
+        android:textSize="24sp"
+        android:text="Họ tên: "
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_fullname"
+        android:id="@+id/detail_dob"
+        android:textSize="24sp"
+        android:text="Ngày sinh: "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_email"
+        android:layout_below="@+id/detail_dob"
+        android:textSize="24sp"
+        android:text="Email:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_address"
+        android:layout_below="@+id/detail_email"
+        android:textSize="24sp"
+        android:text="Địa chỉ: "/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa"
+        android:layout_below="@+id/detail_address"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detail_address"
+        android:layout_alignRight="@+id/detail_fullname"
+        android:text="Chỉnh sửa thông tin"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
